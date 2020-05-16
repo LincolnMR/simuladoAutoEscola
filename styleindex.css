@@ -1,0 +1,142 @@
+*{
+	margin:0;
+	border:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+
+	font-family: "Nunito", arial, helvetica, sans-serif;
+	font-size: 20px;
+	background-image: url("fundo.jpg");
+	
+}
+    
+img{
+
+    display: block;
+	max-width: 100%;
+	border: none;
+}
+
+aside{
+
+	height: 30px;
+	width: 420px;
+	background-image: repeating-linear-gradient(#ff9a3b, rgb(255, 197, 8), #FFFF00);
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+header {
+
+	height: 220px;
+	width: 1000px;
+	background-image: repeating-linear-gradient(#eeff02, rgb(242, 255, 59), rgb(248, 250, 135));	
+	border-radius: 20px 40px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#logo {
+
+	height: 200px;
+	width: 200px;
+	border-radius: 10%;
+	margin-right: 60px;
+	margin-top: 10px;
+}
+
+#titulo{
+
+	font-size: 55px;
+	font-family: 'Concert One', cursive;
+	text-align: center;
+	margin-left: 80px;
+	margin-top: 80px;
+}
+
+#tipo{
+
+	font-size: 30px;
+	font-family: 'Concert One', cursive;
+	text-align: center;
+}
+
+#pontos {
+
+	float: left;
+}
+
+section{
+
+	max-height: auto;
+	max-width: auto;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	border:1px solid black;
+	border-radius: 20px;
+	background-image: repeating-linear-gradient(#eeff02, rgb(242, 255, 59), rgb(248, 250, 135));	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 30px;
+}
+
+
+section div, section p{
+
+	margin: 20px;
+}
+
+#nome{
+	text-align: center;
+}
+
+
+
+.menu{
+
+    max-width: 968px;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+	align-items: center;
+	list-style-type: none;
+	font-weight: bold;
+	background-image: repeating-linear-gradient(#eeff02, rgb(242, 255, 59), rgb(248, 250, 135));	
+	border-radius: 20px;
+	margin-top: 30px;	
+}
+
+.menu li{
+
+		position:relative; 
+		float:left; 	
+}
+.menu li button{
+
+    color:rgb(0, 0, 0); 
+    text-decoration:none; 
+    padding:5px 20px; 
+	display:block;
+	font-size: 20px;
+	background: none;
+	outline: none;		
+}
+
+.menu li button:hover{
+	
+	color:rgb(255, 0, 0);  
+	text-shadow:0px 0px 5px #fff; 
+}

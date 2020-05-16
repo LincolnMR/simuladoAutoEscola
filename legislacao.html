@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Simulado </title>
+		<meta charset = "utf-8"/>
+		<meta charset = "viewport" content = "width=device-width, initial-scale=1,shrink-to-fit= no">
+		<link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+        <link  rel = " stylesheet" type = "text/css" href = "styleindex.css"/>
+	</head>
+	
+	<body>
+
+		<h5 id="tipo">Legislação</h5>
+
+		<div>
+			<form action="" id="pergunta4" method="POST" name="pergunta4">
+				<p>1 - Conforme o C.T.B. e de acordo com sua utilização, as vias urbanas abertas à circulação classificam-se em: </p>						</p>
+				<input  onclick="verific4()" type="radio" name="result" value="1">Via de trânsito rápido, via arterial, via coletora e via local.<br>
+				<input  onclick="verific4()" type="radio" name="result" value="2">Via preferencial, via local e estrada.<br>
+				<input  onclick="verific4()" type="radio" name="result" value="3">Rodovias e via arterial.<br>
+				<p id="imprimir"></p>
+			</form>
+			<form action="" id="pergunta5" method="POST" name="pergunta5">
+				<p>2 - Ao Conselho Nacional de Trânsito (CONTRAN) compete:</p>
+				<input  onclick="verific5()" type="radio" name="result" value="4">Zelar pelas rodovias e estradas.<br>
+				<input  onclick="verific5()" type="radio" name="result" value="5">Fiscalizar os C.F.C.<br>
+				<input  onclick="verific5()" type="radio" name="result" value="6">Zelar pela uniformidade e cumprimento das normas contidas no C.T.B. e nas resoluções.<br>
+				<p id="imprimir2"></p>
+			</form>
+			<form action="" id="pergunta6" method="POST" name="pergunta6">
+				<p>3 - Define-se perímetro urbano como:</p>
+				<input  onclick="verific6()" type="radio" name="result" value="7">Limite entre via urbana e coletora.<br>
+				<input  onclick="verific6()" type="radio" name="result" value="8">Limite entre área urbana e rural.<br>
+				<input  onclick="verific6()" type="radio" name="result" value="9">Limite entre vias secundárias.<br>
+				<p id="imprimir3"></p>
+			</form>
+		</div>
+
+		<p id="pontos"> </p>
+
+	</body>	
+</html>

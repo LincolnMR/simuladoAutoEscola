@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Simulado </title>
+		<meta charset = "utf-8"/>
+		<meta charset = "viewport" content = "width=device-width, initial-scale=1,shrink-to-fit= no">
+		<link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+        <link  rel = " stylesheet" type = "text/css" href = "styleindex.css"/>
+	</head>
+	
+	<body>
+
+		<h5 id="tipo">Primeiros Socorros</h5>
+
+		<div>
+			<form action="" id="pergunta7" method="POST" name="pergunta7">
+				<p>1 - A hemorragia dos pulmões caracteriza-se por:</p>
+				<input  onclick="verific7()" type="radio" name="result" value="1">Dor nos olhos.<br>
+				<input  onclick="verific7()" type="radio" name="result" value="2">Golfadas de sangue que saem pela boca, após um acesso de tosse.<br>
+				<input  onclick="verific7()" type="radio" name="result" value="3">Dor na barriga.<br>
+				<p id="imprimir"></p>
+			</form>			
+			<form action="" id="pergunta8" method="POST" name="pergunta8">
+				<p>2 - Hemorragia interna pode ser definida como:</p>
+				<input  onclick="verific8()" type="radio" name="result" value="4">A visível perda de sangue através de um ferimento localizado na superfície corporal.<br>
+				<input  onclick="verific8()" type="radio" name="result" value="5">A consequência de um ferimento profundo com lesão de órgãos internos ou rompimento de veias ou artérias.<br>
+				<input  onclick="verific8()" type="radio" name="result" value="6">A perda de sangue por um ferimento.<br>
+				<p id="imprimir2"></p>		
+			</form>
+			<form action="" id="pergunta9" method="POST" name="pergunta9">
+				<p>3 - Entende-se por parada cárdio-respiratória:</p>
+				<input onclick="verific9()" type="radio" name="result" value="7">Transpiração excessiva da vítima.<br>
+				<input onclick="verific9()" type="radio" name="result" value="8">Arroxeamento da pele da vítima.<br>
+				<input onclick="verific9()" type="radio" name="result" value="9">A paralização de uma função vital do organismo que neutraliza a oxigenação ou a circulação do sangue podendo provocar a morte em 3 a 5 minutos.<br>
+				<p id="imprimir3"></p>
+			</form>					
+		</div>
+
+		<p id="pontos"> </p>
+
+	</body>	
+</html>

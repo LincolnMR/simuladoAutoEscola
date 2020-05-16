@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Simulado </title>
+		<meta charset = "utf-8"/>
+		<meta charset = "viewport" content = "width=device-width, initial-scale=1,shrink-to-fit= no">
+		<link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+        <link  rel = " stylesheet" type = "text/css" href = "styleindex.css"/>
+	</head>
+	
+	<body>		
+	
+		<h5 id="tipo">Mecânica</h5>
+		
+
+		<div>
+			<form action="" id="pergunta" method="POST" name="pergunta" >
+				<p>1 - A embreagem composta basicamente de um platô e disco, tem a função de:</p>
+				<input onclick="verific1()" type="radio" name="result" value="1">Facilitar o funcionamento do motor, bombeando o óleo na transmissão.<br>					
+				<input onclick="verific1()" type="radio" name="result" value="2">Permitir ao veículo queimar combustível mais facilmente.<br>							
+				<input onclick="verific1()" type="radio" name="result" value="3">Transmitir a força do motor para as rodas.<br>
+				<p id="imprimir"></p>
+				
+			</form>
+				
+			<form action="" id="pergunta2" method="POST" name="pergunta2" >
+				<p>2 - O motor de um veículo entra em funcionamento somente se houver energia elétrica para acionar:</p>
+				<input onclick="verific2()" type="radio" name="result" value="4">Bobina e bateria.<br>
+				<input onclick="verific2()" type="radio" name="result" value="5">Distribuidor.<br>
+				<input onclick="verific2()" type="radio" name="result" value="6">Motor de arranque ou de partida.<br>
+				<p id="imprimir2"></p>
+			</form>
+
+			<form action="" id="pergunta3" method="POST" name="pergunta3" >
+				<p>3 - Compõem o sistema de alimentação:</p>
+				<input onclick="verific3()" type="radio" name="result" value="7">Alternador e radiador.<br>
+				<input onclick="verific3()" type="radio" name="result" value="8">Carburador e injeção eletrônica.<br>
+				<input onclick="verific3()" type="radio" name="result" value="9">Ignição e ventilação.<br>
+				<p id="imprimir3"></p>
+			</form>
+		</div>
+
+		<p id="pontos"> </p>
+
+	</body>	
+</html>
